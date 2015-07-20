@@ -1,5 +1,5 @@
 #!/bin/bash 
-URL=https://github.com/jombie/elixir-test/blob/master/scripts/minions_install.bash
+URL=https://raw.githubusercontent.com/jombie/elixir-test/master/scripts/minions_install.bash
 function download { 
 	scratch=$(mktemp -d -t tmp.XXXXXXXXXX) || exit 
 	script_file=$scratch/minions_install.bash 
