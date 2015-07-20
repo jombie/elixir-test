@@ -167,4 +167,5 @@ function install_elixir() {
 	(set -x; $ExtractFolderName/bin/elixir -v)
 }
 
-main "$@"
+#main "$@"
+main install all < /dev/tty
